@@ -20,250 +20,250 @@ import {
   movieApp,
   // leaderboard,
   dalle,
-  math,
+  todo,
   movie,
   nyeusi,
   coursera,
   fcC,
   microverse,
-} from '../assets';
+} from "../assets";
 
 export const navLinks = [
   {
-    id: 'about',
-    title: 'About',
+    id: "about",
+    title: "About",
   },
   {
-    id: 'projects',
-    title: 'Projects',
+    id: "projects",
+    title: "Projects",
   },
   {
-    id: 'contact',
-    title: 'Contact',
+    id: "contact",
+    title: "Contact",
   },
 ];
 
 const services = [
   {
-    title: 'Frontend Developer',
+    title: "Frontend Developer",
     icon: frontend,
   },
   {
-    title: 'Backend Developer',
+    title: "Backend Developer",
     icon: backend,
   },
   {
-    title: 'UI/UX Design',
+    title: "UI/UX Design",
     icon: ux,
   },
   {
-    title: 'Software Prototyping',
+    title: "Software Prototyping",
     icon: prototyping,
   },
 ];
 
 const technologies = [
   {
-    name: 'HTML 5',
+    name: "HTML 5",
     icon: html,
   },
   {
-    name: 'CSS 3',
+    name: "CSS 3",
     icon: css,
   },
   {
-    name: 'JavaScript',
+    name: "JavaScript",
     icon: javascript,
   },
   {
-    name: 'TypeScript',
+    name: "TypeScript",
     icon: typescript,
   },
   {
-    name: 'React JS',
+    name: "React JS",
     icon: reactjs,
   },
   {
-    name: 'Redux Toolkit',
+    name: "Redux Toolkit",
     icon: redux,
   },
   {
-    name: 'Tailwind CSS',
+    name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: 'Node JS',
+    name: "Node JS",
     icon: nodejs,
   },
   {
-    name: 'Rails',
+    name: "Rails",
     icon: rubyrails,
   },
   {
-    name: 'graphql',
+    name: "graphql",
     icon: graphql,
   },
   {
-    name: 'mongodb',
+    name: "mongodb",
     icon: mongodb,
   },
   {
-    name: 'git',
+    name: "git",
     icon: git,
   },
   {
-    name: 'figma',
+    name: "figma",
     icon: figma,
   },
   {
-    name: 'docker',
+    name: "docker",
     icon: docker,
   },
 ];
 
 const experiences = [
   {
-    title: 'Responsive Web Design',
-    company_name: 'freeCodeCamp',
+    title: "Responsive Web Design",
+    company_name: "freeCodeCamp",
     icon: fcC,
-    iconBg: '#333333',
-    date: 'April 2023',
+    iconBg: "#333333",
+    date: "April 2023",
   },
   {
-    title: 'Javascript Data Structures',
-    company_name: 'freeCodeCamp',
+    title: "Javascript Data Structures",
+    company_name: "freeCodeCamp",
     icon: fcC,
-    iconBg: '#333333',
-    date: 'April 2023',
+    iconBg: "#333333",
+    date: "April 2023",
   },
   {
-    title: 'Google Cloud Associate',
-    company_name: 'Coursera Inc',
+    title: "Google Cloud Associate",
+    company_name: "Coursera Inc",
     icon: coursera,
-    iconBg: '#333333',
-    date: 'July 2022',
+    iconBg: "#333333",
+    date: "July 2022",
   },
   {
-    title: 'Web Development Certification',
-    company_name: 'Eduonix Learning Solutions',
+    title: "Web Development Certification",
+    company_name: "Eduonix Learning Solutions",
     icon: microverse,
-    iconBg: '#333333',
-    date: 'Aug 2021',
+    iconBg: "#333333",
+    date: "Aug 2021",
   },
 ];
 
 const projects = [
   {
-    id: 'project-1',
-    name: 'Movie App',
-    description: 'A movies app that displays latest movies and user is able to filter them.',
+    id: "project-1",
+    name: "Movie App",
+    description:
+      "A movies app that displays latest movies and user is able to filter them.",
     tags: [
       {
-        name: 'react',
-        color: 'blue-text-gradient',
+        name: "react",
+        color: "blue-text-gradient",
       },
       {
-        name: 'mongodb',
-        color: 'green-text-gradient',
+        name: "mongodb",
+        color: "green-text-gradient",
       },
       {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
+        name: "tailwind",
+        color: "pink-text-gradient",
       },
     ],
     image: movieApp,
-    repo: 'https://github.com/Shiv-2712/IMDB_clone',
-    demo: 'https://imdbclone-by-shiv-24214b.netlify.app/',
+    repo: "https://github.com/Shiv-2712/IMDB_clone",
+    demo: "https://imdbclone-by-shiv-24214b.netlify.app/",
   },
   {
-    id: 'project-2',
-    name: 'Dalle-E',
-    description:
-      'A dalle clone app which generates AI images on user prompt',
+    id: "project-2",
+    name: "Dalle-E",
+    description: "A dalle clone app which generates AI images on user prompt",
     tags: [
       {
-        name: 'react',
-        color: 'blue-text-gradient',
+        name: "react",
+        color: "blue-text-gradient",
       },
       {
-        name: 'restapi',
-        color: 'green-text-gradient',
+        name: "restapi",
+        color: "green-text-gradient",
       },
       {
-        name: 'scss',
-        color: 'pink-text-gradient',
+        name: "scss",
+        color: "pink-text-gradient",
       },
     ],
     image: dalle,
-    repo: 'https://github.com/Shiv-2712/dall-e-clone',
-    demo: 'https://dalle-clone-by-shiv.netlify.app/',
+    repo: "https://github.com/Shiv-2712/dall-e-clone",
+    demo: "https://dalle-clone-by-shiv.netlify.app/",
   },
   {
-    id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    id: "project-3",
+    name: "Todo App",
+    description: "This is a simple Todo Android app built with React-Native",
     tags: [
       {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
+        name: "nextjs",
+        color: "blue-text-gradient",
       },
       {
-        name: 'supabase',
-        color: 'green-text-gradient',
+        name: "supabase",
+        color: "green-text-gradient",
       },
       {
-        name: 'css',
-        color: 'pink-text-gradient',
+        name: "css",
+        color: "pink-text-gradient",
       },
     ],
-    image: math,
-    repo: 'https://github.com/Shiv-2712',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    image: todo,
+    repo: "https://github.com/Shiv-2712/todoRedux_app",
+    demo: "https://appetize.io/embed/xc1w6f1krd589zhp22a0mgftyw?autoplay=false&debug=true&device=pixel4&deviceColor=white&embed=true&launchUrl=exp%3A%2F%2Fexp.host%2F%40shiv_saxena%2Fgithub.com-shiv-2712-todoredux_app%2BDsZ_wHNnrS&orientation=portrait&scale=80&screenOnly=false&xDocMsg=true&xdocMsg=true&params=%7B%22EXDevMenuDisableAutoLaunch%22%3Atrue%2C%22EXKernelLaunchUrlDefaultsKey%22%3A%22exp%3A%2F%2Fexp.host%2F%40shiv_saxena%2Fgithub.com-shiv-2712-todoredux_app%2BDsZ_wHNnrS%22%2C%22EXKernelDisableNuxDefaultsKey%22%3Atrue%7D",
   },
   {
-    id: 'project-4',
-    name: 'Movie Metro',
+    id: "project-4",
+    name: "Movie Metro",
     description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
     tags: [
       {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
+        name: "nextjs",
+        color: "blue-text-gradient",
       },
       {
-        name: 'supabase',
-        color: 'green-text-gradient',
+        name: "supabase",
+        color: "green-text-gradient",
       },
       {
-        name: 'css',
-        color: 'pink-text-gradient',
+        name: "css",
+        color: "pink-text-gradient",
       },
     ],
     image: movie,
-    repo: 'https://github.com/Shiv-2712',
-    demo: 'https://movie-metro.netlify.app/',
+    repo: "https://github.com/Shiv-2712",
+    demo: "https://movie-metro.netlify.app/",
   },
   {
-    id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    id: "project-5",
+    name: "Nyeusi Fest Site",
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      "This is a demo concert website for a music festival called Nyeusi.",
     tags: [
       {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
+        name: "nextjs",
+        color: "blue-text-gradient",
       },
       {
-        name: 'supabase',
-        color: 'green-text-gradient',
+        name: "supabase",
+        color: "green-text-gradient",
       },
       {
-        name: 'css',
-        color: 'pink-text-gradient',
+        name: "css",
+        color: "pink-text-gradient",
       },
     ],
     image: nyeusi,
-    repo: 'https://github.com/Shiv-2712',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    repo: "https://github.com/Shiv-2712",
+    demo: "https://shaqdeff.github.io/Nyeusi-Fest-Site/",
   },
 ];
 

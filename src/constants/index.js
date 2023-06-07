@@ -218,7 +218,7 @@ const projects = [
     ],
     image: todo,
     repo: "https://github.com/Shiv-2712/todoRedux_app",
-    demo: "https://appetize.io/embed/xc1w6f1krd589zhp22a0mgftyw?autoplay=false&debug=true&device=pixel4&deviceColor=white&embed=true&launchUrl=exp%3A%2F%2Fexp.host%2F%40shiv_saxena%2Fgithub.com-shiv-2712-todoredux_app%2BDsZ_wHNnrS&orientation=portrait&scale=80&screenOnly=false&xDocMsg=true&xdocMsg=true&params=%7B%22EXDevMenuDisableAutoLaunch%22%3Atrue%2C%22EXKernelLaunchUrlDefaultsKey%22%3A%22exp%3A%2F%2Fexp.host%2F%40shiv_saxena%2Fgithub.com-shiv-2712-todoredux_app%2BDsZ_wHNnrS%22%2C%22EXKernelDisableNuxDefaultsKey%22%3Atrue%7D",
+    demo: "https://snack.expo.dev/@shiv_saxena/android_todoredux_app",
   },
   {
     id: "project-4",

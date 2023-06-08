@@ -218,7 +218,7 @@ const projects = [
     ],
     image: todo,
     repo: "https://github.com/Shiv-2712/todoRedux_app",
-    demo: "https://snack.expo.dev/@shiv_saxena/android_todoredux_app",
+    demo: "https://snack.expo.dev/@shiv_saxena/todoapp_redux",
   },
   {
     id: "project-4",

@@ -13,9 +13,9 @@ import {
   nodejs,
   git,
   figma,
-  docker,
+  // docker,
   mongodb,
-  rubyrails,
+  // rubyrails,
   graphql,
   movieApp,
   // leaderboard,
@@ -95,10 +95,10 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "Rails",
-    icon: rubyrails,
-  },
+  // {
+  //   name: "Rails",
+  //   icon: rubyrails,
+  // },
   {
     name: "graphql",
     icon: graphql,
@@ -115,10 +115,10 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
